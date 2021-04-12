@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#topbar {
+    width: 100%;
+    padding: 24px 50px;
+    box-sizing: border-box;
+
+    box-shadow: 0 2px 2px #ccc;
+}
+
+#post-login-view {
+    display: flex;
+    align-items: center;
+
+    display: none;
+}
+
+#post-login-view h2 {
+    margin: 0;
+}
+
+#btn-logout {
+    margin-left: 24px;
+
+    border: 0;
+    background-color: transparent;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+    outline: none;
+
+    color: black;
+    text-decoration: none;
+}
+
+#btn-login {
+    border: 0;
+    background-color: transparent;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+    outline: none;
+
+    color: black;
+    text-decoration: none;
+}
+
+#main-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#todo-form {
+    padding: 24px;
+    box-shadow: 0 0 6px #ccc;
+    border-radius: 6px;
+
+    margin: 48px 0 24px;
+}
+
+
+#todo-input {
+    width: 100%;
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+.todo-card {
+    padding: 24px;
+    box-shadow: 0 0 6px #ccc;
+    border-radius: 6px;   
+    margin: 16px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-message {
+    margin: 0;
+}
+
+.todo-created-time {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    font-size: 14px;
+}
+
+.action-icon {
+    margin-left: 16px;
+}
